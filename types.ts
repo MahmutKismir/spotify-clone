@@ -45,7 +45,7 @@ export interface Price {
   product?: Product;
 }
 
-export interface ProductWidthPrice extends Product {
+export interface ProductWithPrice extends Product {
   prices?: Price[]
 }
 
