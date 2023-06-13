@@ -25,7 +25,7 @@ export default async function RootLayout({
 }: {
   children: React.ReactNode
 }) {
-  const products = await getActiveProductsWithPrices();
+  const products = await getActiveProductsWithPrices()
   const userSongs = await getSongsByUserId();
 
   return (
