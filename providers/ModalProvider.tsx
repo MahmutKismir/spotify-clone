@@ -8,7 +8,7 @@ import SubscribeModal from "@/components/SubscribeModal";
 import { ProductWidthPrice } from "@/types";
 
 interface ModalProviderProps {
-  products: ProductWidthPrice[]
+  products: ProductWidthPrice[] | any
 }
 
 const ModalProvider: React.FC<ModalProviderProps> = ({ products }) => {
