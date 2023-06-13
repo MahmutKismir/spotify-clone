@@ -5,10 +5,10 @@ import { useEffect, useState } from "react";
 import AuthModal from "@/components/AuthModal";
 import UplodaModal from "@/components/UploadModal";
 import SubscribeModal from "@/components/SubscribeModal";
-import { ProductWidthPrice } from "@/types";
+import { ProductWithPrice } from "@/types";
 
 interface ModalProviderProps {
-  products: ProductWidthPrice[]
+  products: ProductWithPrice[]
 }
 
 const ModalProvider: React.FC<ModalProviderProps> = ({ products }) => {
